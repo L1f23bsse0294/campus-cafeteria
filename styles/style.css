@@ -1,4 +1,5 @@
 
+
 /* ==========================================================
    Campus Bites - shared design system (owner: Team Lead)
    Tokens, reset, layout, header/footer, buttons, cards, forms.
@@ -113,6 +114,24 @@ h3{font-size:1.25rem}
 .banner{background:linear-gradient(110deg,rgba(16,35,31,.94) 20%,rgba(10,102,80,.72)),var(--bn,none) center/cover,var(--ink)}
 .credit{margin-top:.6rem;font-size:.8rem;opacity:.8}
 
+
+
+/* FEEDBACK PAGE - Shabbar Ali Shah (Member 4) */
+.fb{display:grid;grid-template-columns:1fr 1.25fr;gap:2rem;align-items:start}
+.contact-panel{background:linear-gradient(160deg,var(--ink),#1d4a3d);color:#fff;border-radius:28px;padding:clamp(1.5rem,3vw,2.4rem)}
+.contact-panel h2{color:#fff;font-size:1.7rem;margin-bottom:1.2rem}.contact-panel a{color:var(--gold)}
+.contact-card{display:flex;gap:1rem;align-items:flex-start;margin-bottom:1.2rem}.contact-card .icon{margin:0;flex:none;background:rgba(255,255,255,.12)}
+.contact-card h3{color:#fff;font-size:1.05rem}.contact-card p{color:#cfe3da;font-size:.95rem}
+.stars{display:inline-flex;flex-direction:row-reverse;gap:.2rem}
+.stars input{position:absolute;opacity:0;width:1px;min-height:0!important}
+.stars label{margin:0;font-size:2.2rem;line-height:1;color:#cfd9cf;cursor:pointer;transition:.15s}
+.stars input:checked~label,.stars label:hover,.stars label:hover~label{color:var(--gold)}.stars label:hover{transform:scale(1.15)}
+.stars input:focus-visible+label{outline:3px solid var(--gold);border-radius:6px}
+.map{border-radius:20px;overflow:hidden;border:4px solid rgba(255,255,255,.15)}.map iframe{width:100%;height:210px;border:0}
+.note{font-size:.82rem;color:var(--mut);margin-top:.9rem;text-align:center}
+@media(max-width:860px){.fb{grid-template-columns:1fr}}
+
+
 /* HOME PAGE - Musawar Nawaz (Team Lead) */
 .hero{position:relative;overflow:hidden;padding:clamp(2.5rem,6vw,5rem) 0 clamp(3.5rem,8vw,6rem);background:radial-gradient(circle at 88% 8%,#d3efe2,transparent 42%),radial-gradient(circle at 5% 95%,#fde7b0,transparent 38%),var(--cream)}
 .hero-in{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
@@ -146,6 +165,7 @@ h3{font-size:1.25rem}
 @media(max-width:860px){.hero-in{grid-template-columns:1fr}.collage{order:-1;max-width:400px;margin-inline:auto}.float.f1{left:-.4rem}.float.f2{right:-.2rem}}
 
 
+
 /* MENU PAGE - Kinz ul Iman (Member 1) - category filter is pure CSS (radio + :checked) */
 .chips{display:flex;flex-wrap:wrap;gap:.5rem;position:sticky;top:78px;z-index:20;background:rgba(251,249,243,.92);backdrop-filter:blur(8px);padding:.8rem 0;margin-bottom:1.5rem}
 .chips .chip{display:inline-block}
@@ -174,4 +194,5 @@ h3{font-size:1.25rem}
 .code{font:700 .95rem monospace;letter-spacing:.08em;color:var(--brand-d);background:#fff;border:2px dashed var(--brand);border-radius:10px;padding:.35rem .7rem}
 .how{counter-reset:h;display:grid;gap:1rem}.how li{list-style:none;display:flex;gap:1rem;align-items:center}.how li::before{counter-increment:h;content:counter(h);flex:none;display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--ink);color:var(--gold);font-weight:700}
 @media(max-width:760px){.special{grid-template-columns:1fr}.special::after{display:none}}
+
 
