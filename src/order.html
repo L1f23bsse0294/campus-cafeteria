@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How to Order | Campus Bites</title>
+  <meta name="description" content="How to order at Campus Bites: simple steps, peak hours, pick-up rules and bulk order requests.">
+  <meta name="theme-color" content="#0e8a6a">
+  <meta property="og:title" content="How to Order | Campus Bites"><meta property="og:description" content="How to order at Campus Bites: simple steps, peak hours, pick-up rules and bulk order requests."><meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%9B%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/order.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header"><div class="wrap bar">
+    <a class="logo" href="index.html" aria-label="Campus Bites home"><span class="logo-mark">CB</span>Campus Bites</a>
+    <input type="checkbox" id="nav-t" class="nav-check" aria-label="Open menu"><label class="nav-toggle" for="nav-t"><span></span></label>
+    <nav id="nav" aria-label="Main"><a href="index.html">Home</a><a href="menu.html">Menu</a><a href="deals.html">Deals</a><a href="order.html" class="active" aria-current="page">How to Order</a><a href="feedback.html">Feedback</a><a class="btn btn-sm" href="menu.html">Order now</a></nav>
+  </div></header>
+  <main id="main">
+<section class="banner" style="--bn:url(https://images.unsplash.com/photo-1767114915989-c6ab3c8fc42e?auto=format&fit=crop&w=800&q=70)"><div class="wrap"><span class="eyebrow">How to order</span><h1>Five easy steps</h1><p>From menu to tray in minutes - no app or account needed.</p></div></section>
+    <section class="sec"><div class="wrap split"><div><div class="head reveal"><span class="eyebrow">Ordering steps</span><h2>Order in five steps</h2></div>
+      <ol class="steps reveal"><li><h3>Choose your items</h3><p>Browse the <a href="menu.html">Menu</a> or pick a combo from the <a href="deals.html">Deals</a> page.</p></li><li><h3>Go to the counter</h3><p>Tell the cashier your order or your combo code.</p></li><li><h3>Pay at the counter</h3><p>Cash and mobile wallets are both accepted.</p></li><li><h3>Collect your token</h3><p>You will receive a printed token with your order number.</p></li><li><h3>Wait for your number</h3><p>Pick up your food at the pick-up window when your number is called.</p></li></ol></div>
+      <div class="card reveal"><span class="eyebrow">Peak hours</span><h2 style="font-size:1.6rem">Beat the queue</h2><p style="color:var(--mut);margin:.5rem 0">Order before or after the rush for shorter waits.</p>
+        <div class="bars" role="img" aria-label="Busyness by hour, peaking at breakfast and lunch"><div class="bar-c rush" title="8:00"><i style="height:35%"></i>8a</div><div class="bar-c rush" title="9:00"><i style="height:70%"></i>9a</div><div class="bar-c" title="10:00"><i style="height:92%"></i>10a</div><div class="bar-c" title="11:00"><i style="height:60%"></i>11a</div><div class="bar-c rush" title="12:00"><i style="height:40%"></i>12p</div><div class="bar-c rush" title="13:00"><i style="height:55%"></i>1p</div><div class="bar-c" title="14:00"><i style="height:85%"></i>2p</div><div class="bar-c" title="15:00"><i style="height:98%"></i>3p</div><div class="bar-c" title="16:00"><i style="height:70%"></i>4p</div><div class="bar-c" title="17:00"><i style="height:42%"></i>5p</div><div class="bar-c" title="18:00"><i style="height:30%"></i>6p</div><div class="bar-c" title="19:00"><i style="height:22%"></i>7p</div><div class="bar-c" title="20:00"><i style="height:15%"></i>8p</div></div><div class="legend"><span class="r">Rush: 8:30-10 AM &amp; 12:30-2 PM</span><span>Quieter</span></div></div></div></section>
+    <section class="sec alt"><div class="wrap split"><div class="reveal"><span class="eyebrow">Pick-up rules</span><h2 style="margin-bottom:1.2rem">Good to know</h2>
+      <ul class="rules"><li>Keep your token safe; orders are not handed out without it.</li><li>Uncollected orders are held for 15 minutes only.</li><li>Check your order before leaving the counter.</li><li>Bulk orders (10+ items) should be placed one hour in advance.</li></ul></div>
+      <div class="card reveal"><h3>Bulk order request</h3><p style="color:var(--mut);font-size:.9rem">For society events and meetings. Opens your email app to send the request.</p>
+        <form class="form" action="mailto:campusbites@ucp.edu.pk?subject=Bulk%20order%20request" method="post" enctype="text/plain">
+          <label for="bname">Your name</label><input id="bname" name="Name" required autocomplete="name"><span class="err">Please enter your name.</span>
+          <label for="phone">Mobile number</label><input id="phone" name="Phone" type="tel" required pattern="(\+92|0)3\d{2}[\- ]?\d{7}" placeholder="0300 1234567" autocomplete="tel"><span class="err">Use a Pakistani mobile number, e.g. 0300 1234567.</span>
+          <label for="items">Number of items (10 or more)</label><input id="items" name="Items" type="number" min="10" required><span class="err">Bulk orders start at 10 items.</span>
+          <label for="date">Pick-up date</label><input id="date" name="Date" type="date" required><span class="err">Choose a date (we are closed on Sundays).</span>
+          <button class="btn" type="submit">Request bulk order</button></form></div></div></section>
+    <section class="sec"><div class="wrap" style="max-width:820px"><div class="head"><span class="eyebrow">FAQ</span><h2>Ordering questions</h2></div>
+      <div class="faq"><details><summary>Can I order ahead?</summary><p>Only bulk orders (10+ items) are taken in advance. Everything else is first come, first served at the counter.</p></details><details><summary>What if I lose my token?</summary><p>Please speak to the cashier right away with your order details. We cannot hand over food without verification.</p></details><details><summary>Can I change my order after paying?</summary><p>Changes are possible before the kitchen starts - ask at the counter immediately.</p></details></div></div></section>
+  </main>
+  <footer>
+  <div class="site-footer"><div class="wrap">
+    <div class="fgrid">
+      <div><a class="logo" href="index.html" style="color:#fff"><span class="logo-mark">CB</span>Campus Bites</a>
+        <p style="margin-top:.9rem;max-width:340px">Fresh, affordable and quick meals for every student and staff member at the University of Central Punjab.</p>
+        <div class="social"><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">IG</a><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook">FB</a><a href="https://x.com" target="_blank" rel="noopener" aria-label="X">X</a><a href="https://wa.me/924212345678" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a></div></div>
+      <div><h3>Explore</h3><ul><li><a href="index.html">Home</a></li><li><a href="menu.html">Menu</a></li><li><a href="deals.html">Deals</a></li><li><a href="order.html">How to Order</a></li><li><a href="feedback.html">Feedback</a></li></ul></div>
+      <div><h3>Visit us</h3><ul><li>Ground Floor, Student Activity Center,<br>UCP, Johar Town, Lahore</li><li><a href="tel:+924212345678">+92 42 1234 5678</a></li><li><a href="mailto:campusbites@ucp.edu.pk">campusbites@ucp.edu.pk</a></li><li>Mon-Fri 8 AM - 8 PM &middot; Sat 9 AM - 4 PM</li></ul></div>
+    </div>
+    <p class="copy">&copy; 2026 Campus Bites | University of Central Punjab<br><span class="credit">Food photos: <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a> &amp; <a href="https://pexels.com" target="_blank" rel="noopener">Pexels</a> photographers</span></p>
+  </div></div></footer>
+</body>
+</html>
