@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+
+
 /* ==========================================================
    Campus Bites - shared design system (owner: Team Lead)
    Tokens, reset, layout, header/footer, buttons, cards, forms.
@@ -112,7 +113,7 @@ h3{font-size:1.25rem}
 .art:has(img)::before{display:none}.art:has(img)::after{z-index:3;background:linear-gradient(180deg,transparent 55%,rgba(16,35,31,.28))}
 .banner{background:linear-gradient(110deg,rgba(16,35,31,.94) 20%,rgba(10,102,80,.72)),var(--bn,none) center/cover,var(--ink)}
 .credit{margin-top:.6rem;font-size:.8rem;opacity:.8}
-=======
+
 /* HOME PAGE - Musawar Nawaz (Team Lead) */
 .hero{position:relative;overflow:hidden;padding:clamp(2.5rem,6vw,5rem) 0 clamp(3.5rem,8vw,6rem);background:radial-gradient(circle at 88% 8%,#d3efe2,transparent 42%),radial-gradient(circle at 5% 95%,#fde7b0,transparent 38%),var(--cream)}
 .hero-in{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
@@ -144,4 +145,16 @@ h3{font-size:1.25rem}
 .cta-band::before,.cta-band::after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.08)}.cta-band::before{width:260px;height:260px;left:-80px;top:-100px}.cta-band::after{width:340px;height:340px;right:-120px;bottom:-180px}
 .cta-band>*{position:relative}.cta-band h2{color:#fff}.cta-band p{margin:.7rem auto 1.5rem;max-width:480px;opacity:.9}.cta-band .btn{background:#fff;color:var(--brand-d);border-color:#fff}
 @media(max-width:860px){.hero-in{grid-template-columns:1fr}.collage{order:-1;max-width:400px;margin-inline:auto}.float.f1{left:-.4rem}.float.f2{right:-.2rem}}
->>>>>>> 08755b4 (add home page structure(html))
+
+
+/* MENU PAGE - Kinz ul Iman (Member 1) - category filter is pure CSS (radio + :checked) */
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;position:sticky;top:78px;z-index:20;background:rgba(251,249,243,.92);backdrop-filter:blur(8px);padding:.8rem 0;margin-bottom:1.5rem}
+.chips .chip{display:inline-block}
+#c-all:checked~.chips [for=c-all],#c-bf:checked~.chips [for=c-bf],#c-ff:checked~.chips [for=c-ff],#c-mc:checked~.chips [for=c-mc],#c-bd:checked~.chips [for=c-bd]{background:var(--brand);border-color:var(--brand);color:#fff}
+#c-all:focus-visible~.chips [for=c-all],#c-bf:focus-visible~.chips [for=c-bf],#c-ff:focus-visible~.chips [for=c-ff],#c-mc:focus-visible~.chips [for=c-mc],#c-bd:focus-visible~.chips [for=c-bd]{outline:3px solid var(--gold)}
+#c-bf:checked~.grid .item:not([data-cat=bf]),#c-ff:checked~.grid .item:not([data-cat=ff]),#c-mc:checked~.grid .item:not([data-cat=mc]),#c-bd:checked~.grid .item:not([data-cat=bd]){display:none}
+.item{display:flex;flex-direction:column;position:relative}.item .art{aspect-ratio:16/10;margin-bottom:1rem}
+.item .pr{position:absolute;top:1.9rem;right:1.9rem;z-index:2;background:var(--ink);color:#fff;border-radius:99px;padding:.25rem .8rem;font:700 .9rem var(--fh)}
+.item p{color:var(--mut);font-size:.92rem;margin:.3rem 0 0}
+.veg{display:inline-flex;align-items:center;gap:.4rem;font-size:.78rem;font-weight:600;color:var(--mut)}.veg::before{content:"";width:12px;height:12px;border:2px solid var(--ok);border-radius:3px;background:radial-gradient(circle,var(--ok) 35%,transparent 40%)}.veg.nv::before{border-color:var(--bad);background:radial-gradient(circle,var(--bad) 35%,transparent 40%)}
+
