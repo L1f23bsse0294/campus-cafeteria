@@ -1,5 +1,8 @@
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 54eda666c577e9a8270640f28443342a0b81f57e
 /* ==========================================================
    Campus Bites - shared design system (owner: Team Lead)
    Tokens, reset, layout, header/footer, buttons, cards, forms.
@@ -113,6 +116,8 @@ h3{font-size:1.25rem}
 .art:has(img)::before{display:none}.art:has(img)::after{z-index:3;background:linear-gradient(180deg,transparent 55%,rgba(16,35,31,.28))}
 .banner{background:linear-gradient(110deg,rgba(16,35,31,.94) 20%,rgba(10,102,80,.72)),var(--bn,none) center/cover,var(--ink)}
 .credit{margin-top:.6rem;font-size:.8rem;opacity:.8}
+<<<<<<< HEAD
+=======
 
 
 
@@ -132,6 +137,7 @@ h3{font-size:1.25rem}
 @media(max-width:860px){.fb{grid-template-columns:1fr}}
 
 
+>>>>>>> 54eda666c577e9a8270640f28443342a0b81f57e
 /* HOME PAGE - Musawar Nawaz (Team Lead) */
 .hero{position:relative;overflow:hidden;padding:clamp(2.5rem,6vw,5rem) 0 clamp(3.5rem,8vw,6rem);background:radial-gradient(circle at 88% 8%,#d3efe2,transparent 42%),radial-gradient(circle at 5% 95%,#fde7b0,transparent 38%),var(--cream)}
 .hero-in{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
@@ -163,6 +169,8 @@ h3{font-size:1.25rem}
 .cta-band::before,.cta-band::after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.08)}.cta-band::before{width:260px;height:260px;left:-80px;top:-100px}.cta-band::after{width:340px;height:340px;right:-120px;bottom:-180px}
 .cta-band>*{position:relative}.cta-band h2{color:#fff}.cta-band p{margin:.7rem auto 1.5rem;max-width:480px;opacity:.9}.cta-band .btn{background:#fff;color:var(--brand-d);border-color:#fff}
 @media(max-width:860px){.hero-in{grid-template-columns:1fr}.collage{order:-1;max-width:400px;margin-inline:auto}.float.f1{left:-.4rem}.float.f2{right:-.2rem}}
+<<<<<<< HEAD
+=======
 
 
 
@@ -210,3 +218,4 @@ h3{font-size:1.25rem}
 .rules{list-style:none;display:grid;gap:.8rem}.rules li{background:#fff;border:1px solid var(--line);border-radius:14px;padding:.9rem 1rem .9rem 3rem;position:relative}.rules li::before{content:"\2713";position:absolute;left:1rem;top:.85rem;width:1.5rem;height:1.5rem;border-radius:50%;background:var(--brand);color:#fff;display:grid;place-items:center;font-size:.8rem;font-weight:700}
 .legend{display:flex;gap:1rem;font-size:.85rem;margin-top:.8rem;flex-wrap:wrap}.legend span::before{content:"";display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:.4rem;background:var(--line)}.legend .r::before{background:var(--brand)}
 @media(max-width:860px){.split{grid-template-columns:1fr}}
+>>>>>>> 54eda666c577e9a8270640f28443342a0b81f57e
