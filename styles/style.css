@@ -1,0 +1,14 @@
+/* FEEDBACK PAGE - Shabbar Ali Shah (Member 4) */
+.fb{display:grid;grid-template-columns:1fr 1.25fr;gap:2rem;align-items:start}
+.contact-panel{background:linear-gradient(160deg,var(--ink),#1d4a3d);color:#fff;border-radius:28px;padding:clamp(1.5rem,3vw,2.4rem)}
+.contact-panel h2{color:#fff;font-size:1.7rem;margin-bottom:1.2rem}.contact-panel a{color:var(--gold)}
+.contact-card{display:flex;gap:1rem;align-items:flex-start;margin-bottom:1.2rem}.contact-card .icon{margin:0;flex:none;background:rgba(255,255,255,.12)}
+.contact-card h3{color:#fff;font-size:1.05rem}.contact-card p{color:#cfe3da;font-size:.95rem}
+.stars{display:inline-flex;flex-direction:row-reverse;gap:.2rem}
+.stars input{position:absolute;opacity:0;width:1px;min-height:0!important}
+.stars label{margin:0;font-size:2.2rem;line-height:1;color:#cfd9cf;cursor:pointer;transition:.15s}
+.stars input:checked~label,.stars label:hover,.stars label:hover~label{color:var(--gold)}.stars label:hover{transform:scale(1.15)}
+.stars input:focus-visible+label{outline:3px solid var(--gold);border-radius:6px}
+.map{border-radius:20px;overflow:hidden;border:4px solid rgba(255,255,255,.15)}.map iframe{width:100%;height:210px;border:0}
+.note{font-size:.82rem;color:var(--mut);margin-top:.9rem;text-align:center}
+@media(max-width:860px){.fb{grid-template-columns:1fr}}
