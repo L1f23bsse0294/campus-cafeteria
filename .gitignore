@@ -1,32 +1,14 @@
-# Campus Cafeteria Web Application
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
 
-A web-based campus cafeteria management system showcasing menus, special deals, online ordering, and customer feedback. Developed using HTML5, CSS3, and the Git Flow multi-branch workflow.
+# IDE & Code Editor Directories
+.vscode/
+.idea/
+*.swp
+*.swo
 
----
-
-## 👥 Team Members & Task Distribution
-
-| Student Name | Roll Number | Assigned Page / Component | Related Issue # |
-| :--- | :--- | :--- | :--- |
-| **[Musawar Nawaz]**  | Home Page (`src/index.html`) | `#1` |
-| **[Kinzul Iman]**  | Menu Page (`src/menu.html`) | `#2` |
-| **[Zaira Imtiaz]**  | Deals Page (`src/deals.html`) | `#3` |
-| **[Maira Abdul Rahim]**  | Order Page (`src/order.html`) | `#4` |
-| **[Shabbar Ali Shah]**  | Feedback Page (`src/feedback.html`) | `#5` |
-
----
-
-## 📁 Repository Structure
-
-```text
-campus-cafeteria/
-├── src/
-│   ├── deals.html
-│   ├── feedback.html
-│   ├── index.html
-│   ├── menu.html
-│   └── order.html
-├── styles/
-│   └── style.css
-├── .gitignore
-└── README.md
+# Environment & Temporary Files
+*.log
+.env
