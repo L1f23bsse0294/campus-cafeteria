@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* ==========================================================
    Campus Bites - shared design system (owner: Team Lead)
    Tokens, reset, layout, header/footer, buttons, cards, forms.
@@ -111,3 +112,36 @@ h3{font-size:1.25rem}
 .art:has(img)::before{display:none}.art:has(img)::after{z-index:3;background:linear-gradient(180deg,transparent 55%,rgba(16,35,31,.28))}
 .banner{background:linear-gradient(110deg,rgba(16,35,31,.94) 20%,rgba(10,102,80,.72)),var(--bn,none) center/cover,var(--ink)}
 .credit{margin-top:.6rem;font-size:.8rem;opacity:.8}
+=======
+/* HOME PAGE - Musawar Nawaz (Team Lead) */
+.hero{position:relative;overflow:hidden;padding:clamp(2.5rem,6vw,5rem) 0 clamp(3.5rem,8vw,6rem);background:radial-gradient(circle at 88% 8%,#d3efe2,transparent 42%),radial-gradient(circle at 5% 95%,#fde7b0,transparent 38%),var(--cream)}
+.hero-in{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
+.hero h1 em{color:var(--brand);font-style:italic;position:relative}
+.hero h1 em::after{content:"";position:absolute;left:0;right:0;bottom:.05em;height:.18em;background:var(--gold);opacity:.5;border-radius:99px;z-index:-1}
+.hero p.lead{font-size:1.12rem;color:var(--mut);margin:1.2rem 0 1.8rem;max-width:520px}
+.cta{display:flex;flex-wrap:wrap;gap:.8rem}
+.trust{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.8rem}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 5px rgba(63,125,78,.2)}
+.collage{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.collage .art{aspect-ratio:1;font-size:clamp(3rem,7vw,5rem);box-shadow:var(--sh);border:6px solid #fff}
+.collage .art:nth-of-type(1){grid-row:span 2;aspect-ratio:auto;border-radius:140px 140px 24px 24px}
+.collage .art:nth-of-type(2){--a:#fbe3a1;--b:#f4b23e;border-radius:24px 80px 24px 24px}.collage .art:nth-of-type(3){--a:#bfe3d0;--b:#0e8a6a;border-radius:24px 24px 80px 24px}
+.float{position:absolute;z-index:2;background:#fff;border-radius:16px;padding:.7rem 1rem;box-shadow:var(--sh);font-size:.85rem;font-weight:600;animation:float 5s ease-in-out infinite}
+.float b{display:block;font:700 1.2rem var(--fh);color:var(--brand)}.float.f1{left:-1.4rem;bottom:-1.2rem;--rot:-3deg}.float.f2{right:-.6rem;top:-1rem;--rot:3deg;animation-delay:-2s}
+.hero .wave{position:absolute;bottom:0;left:0;fill:var(--cream)}
+.stats{background:var(--ink);color:#fff;padding:3.5rem 0 2.5rem}.stats .grid{text-align:center}
+.stats .grid>div{padding:1rem;border-radius:var(--r);border:1px solid rgba(255,255,255,.1)}
+.stats b{display:block;font:700 2.8rem var(--fh);color:var(--gold)}.stats span{color:#cfe3da;font-size:.9rem}
+.dish{position:relative}.dish .art{margin-bottom:1rem}.dish .row{display:flex;justify-content:space-between;align-items:center;margin-top:.8rem}
+.dish .rate{position:absolute;top:1.9rem;left:1.9rem;z-index:2;background:#fff;border-radius:99px;padding:.2rem .7rem;font-size:.8rem;font-weight:700;box-shadow:var(--sh)}
+.price{font:700 1.15rem var(--fh);color:var(--brand-d)}
+.feature{text-align:center}.feature .icon{margin:0 auto .9rem;width:64px;height:64px;font-size:1.9rem;border-radius:20px;background:linear-gradient(135deg,#d3efe2,#9fdcc4)}
+.quote{position:relative}.quote::before{content:"\201C";position:absolute;top:.2rem;right:1.2rem;font:700 5rem var(--fh);color:var(--sand);line-height:1}
+.quote p{font-family:var(--fh);font-size:1.1rem;font-style:italic;position:relative}.quote footer{margin-top:1rem;font-size:.85rem;color:var(--mut);display:flex;align-items:center;gap:.7rem}
+.av{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--brand);color:#fff;font-weight:700;font-size:.85rem}
+.stars-s{color:var(--gold);letter-spacing:2px;margin-bottom:.6rem}
+.cta-band{position:relative;overflow:hidden;background:linear-gradient(120deg,var(--brand),var(--brand-d));color:#fff;border-radius:32px;padding:clamp(2.2rem,5vw,4rem);text-align:center}
+.cta-band::before,.cta-band::after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.08)}.cta-band::before{width:260px;height:260px;left:-80px;top:-100px}.cta-band::after{width:340px;height:340px;right:-120px;bottom:-180px}
+.cta-band>*{position:relative}.cta-band h2{color:#fff}.cta-band p{margin:.7rem auto 1.5rem;max-width:480px;opacity:.9}.cta-band .btn{background:#fff;color:var(--brand-d);border-color:#fff}
+@media(max-width:860px){.hero-in{grid-template-columns:1fr}.collage{order:-1;max-width:400px;margin-inline:auto}.float.f1{left:-.4rem}.float.f2{right:-.2rem}}
+>>>>>>> 08755b4 (add home page structure(html))
